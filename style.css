@@ -14,8 +14,11 @@
    width: 100%;
    height: auto;
  }
-@media only screen and (min-width: 400px)
+@media only screen and (device-width: 500px)
 {
+ .body{
+   width: 50%;
+ }
  .image {
     width: 50%;
     height: auto;
@@ -47,6 +50,7 @@
     padding-left: 5%;
     box-sizing: border-box;
     overflow: hidden;
+    table-layout: fixed;
     background-color: #F7F7F7;
  }
   @media only screen and (min-width: 500px)
@@ -54,6 +58,7 @@
   .container3{
     width: 100%;
     min-height: 20vh;
+    overflow: hidden;
   }
  }
  .container3{
@@ -63,18 +68,6 @@
     box-sizing: border-box;
     overflow: hidden;
     font-size: 20px;
- }
- @media only screen and (max-width: 700px)
- {
-  .container3{
-    width: 190%;
-  }
-  @media only screen and (max-width: 800px)
-   {
-     .conatiner3{
-       width: 170;
-     }
-   }
  }
  .container4{
     width: 100%;
@@ -352,6 +345,19 @@
             margin:0 6px 3px 0;
             outline: none !important;
           }
+          @media only screen and (max-width: 700px)
+           {
+            .slider img{
+               width: 95%;
+               overflow: hidden;
+            }
+          @media only screen and (max-width: 800px)
+           {
+            .sllider img{
+              width: 80;
+              overflow: hidden;
+            }
+          }
           
           .slider img:last-of-type {
             margin:0 0 3px 0;
@@ -385,3 +391,4 @@
           .hover-shadow:hover {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
+        }
