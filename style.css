@@ -64,17 +64,17 @@
     overflow: hidden;
     font-size: 20px;
  }
-  @media only screen and (max-width: 700px)
-  {
-   .container3{
+ @media only screen and (max-width: 700px)
+ {
+  .container3{
     width: 190%;
   }
-  @media only screen and (max-width: 900px)
-  {
+  @media only screen and (max-width: 800px)
+   {
      .conatiner3{
-       width: 170%;
+       width: 170;
      }
-  }
+   }
  }
  .container4{
     width: 100%;
@@ -243,8 +243,11 @@
   }
   @media only screen and (max-width: 500px)
     {
-     .type{
-       font-size: 18px;
+     .type6{
+       font-size: 30px;
+       position: relative;
+       top: 6em;
+       left: 5em;
     }
   }
   .type7{
@@ -254,6 +257,15 @@
     left: 2.3em;
     font-family: 'Roboto', sans-serif;
     color:white;
+  }
+  @media only screen and (max-width: 500px)
+    {
+     .type7{
+       font-size: 14px;
+       position: relative;
+       top: 13em;
+       left: 11.5em;
+    }
   }
   .type8{
     font-size: 14px;
