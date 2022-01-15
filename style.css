@@ -8,11 +8,10 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
 @media only screen and (min-width: 400px)
 { 
  .image{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     }   
  .container1{
@@ -84,7 +83,7 @@
  .container7{
   width: 100%;
   background-color: black;
-  min-height: 30vh; 
+  min-height: 25vh; 
  }
  .navbar{
     width: 100%;
