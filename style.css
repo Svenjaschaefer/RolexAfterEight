@@ -4,7 +4,7 @@
 }
 .body{
     background-color: white;
-    min-width: 600px; 
+    min-width: 480px; 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -14,7 +14,7 @@
    width: 100%;
    height: auto;
  }
-@media only screen and (device-width: 500px)
+@media only screen and (device-width: 480px)
 {
  .body{
    width: 50%;
@@ -45,7 +45,7 @@
  }
  .container2{
     width: 100%;
-    min-height: 60vh;
+    height: 20vh;
     padding-right: 5%;
     padding-left: 5%;
     box-sizing: border-box;
@@ -53,13 +53,20 @@
     table-layout: fixed;
     background-color: #F7F7F7;
  }
-  @media only screen and (min-width: 500px)
- {
-  .container3{
-    width: 100%;
-    min-height: 20vh;
-    overflow: hidden;
-  }
+ @media only screen and (min-width: 480px)
+    {
+     .container2{
+       width: 100%;
+       min-height: 75vh;
+       overflow: hidden;
+     }
+  @media only screen and (min-width: 700px)
+     {
+      .container2{
+        width: 100%;
+        min-height: 55vh;
+        overflow: hidden;
+      }
  }
  .container3{
     width: 100%;
@@ -68,6 +75,14 @@
     box-sizing: border-box;
     overflow: hidden;
     font-size: 20px;
+ }
+  @media only screen and (min-width: 480px)
+    {
+     .container3{
+       width: 100%;
+       min-height: 40vh;
+       overflow: hidden;
+     }
  }
  .container4{
     width: 100%;
@@ -187,7 +202,7 @@
     position: relative;
     font-family: 'Montserrat', sans-serif;
   }
-  @media only screen and (max-width: 500px)
+  @media only screen and (max-width: 480px)
     {
      .type{
        font-size: 18px;
@@ -199,7 +214,7 @@
     top: 10em; 
     font-family: 'Montserrat', sans-serif;
   }
-  @media only screen and (max-width: 400px)
+  @media only screen and (max-width: 480px)
     {
      .type{
        font-size: 18px;
@@ -234,7 +249,7 @@
     font-family: 'Montserrat', sans-serif;
     color:white;
   }
-  @media only screen and (max-width: 500px)
+  @media only screen and (max-width: 480px)
     {
      .type6{
        font-size: 30px;
@@ -251,7 +266,7 @@
     font-family: 'Roboto', sans-serif;
     color:white;
   }
-  @media only screen and (max-width: 500px)
+  @media only screen and (max-width: 480px)
     {
      .type7{
        font-size: 14px;
@@ -367,7 +382,7 @@
         
           .swipe {
             margin-top:-1em;
-    
+          
           }
           }
           /*	Scrollbar always visible (not Firefox) */
@@ -392,3 +407,4 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
         }
+      }
