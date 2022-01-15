@@ -4,7 +4,7 @@
 }
 .body{
     background-color: white;
-    min-width: 400px; 
+    min-width: 320px; 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -14,11 +14,8 @@
    width: 100%;
    height: auto;
  }
-@media only screen and (device-width: 400px)
+@media only screen and (device-width: 320px)
 {
- .body{
-   width: 50%;
- }
  .image {
     width: 50%;
     height: auto;
@@ -53,7 +50,7 @@
     table-layout: fixed;
     background-color: #F7F7F7;
  }
- @media only screen and (min-width: 400px)
+ @media only screen and (min-width: 320px)
     {
      .container2{
        width: 100%;
@@ -76,7 +73,7 @@
     overflow: hidden;
     font-size: 20px;
  }
-  @media only screen and (min-width: 400px)
+  @media only screen and (min-width: 320px)
     {
      .container3{
        width: 100%;
@@ -102,7 +99,7 @@
     background-repeat: no-repeat;
     background-size: cover;
  }
-  @media only screen and (min-width: 400px)
+  @media only screen and (min-width: 320px)
     {
      .container4{
        width: 100%;
@@ -136,7 +133,7 @@
   background-color: black;
   min-height: 25vh; 
  }
- @media only screen and (min-width: 400px)
+ @media only screen and (min-width: 320px)
   {
    .container7{
     width: 100%;
@@ -226,7 +223,7 @@
     position: relative;
     font-family: 'Montserrat', sans-serif;
   }
-  @media only screen and (max-width: 400px)
+  @media only screen and (max-width: 320px)
     {
      .type{
        font-size: 18px;
@@ -238,7 +235,7 @@
     top: 10em; 
     font-family: 'Montserrat', sans-serif;
   }
-  @media only screen and (max-width: 400px)
+  @media only screen and (max-width: 320px)
     {
      .type{
        font-size: 18px;
@@ -273,30 +270,29 @@
     font-family: 'Montserrat', sans-serif;
     color:white;
   }
-  @media only screen and (max-width: 480px)
+  @media only screen and (min-width: 320px)
     {
      .type6{
        font-size: 30px;
        position: relative;
-       top: 6em;
-       left: 5em;
+       top: 5.2em;
+       left: 1.4em;
     }
   }
   .type7{
     font-size: 14px;
     position: relative;
-    top: 15em;
-    left: 2.3em;
+    top: 13em;
+    left: 3.5em;
     font-family: 'Roboto', sans-serif;
     color:white;
   }
-  @media only screen and (max-width: 480px)
+  @media only screen and (max-width: 320px)
     {
      .type7{
        font-size: 14px;
        position: relative;
-       top: 13em;
-       left: 11.5em;
+       top: 11.5em;
     }
   }
   .type8{
@@ -343,7 +339,13 @@
  #con2{width: auto;max-width:100%;overflow:hidden;}
     .zoomeffekt2 {
       transition: transform 0.5s;
-      width: 6%;
+      width: 7%;
+    }
+    @media only screen and (max-width: 800px)
+    {
+      .zoomeffekt2{
+        width: 12%;
+      }
     }
     .zoomeffekt2:hover,
     .zoomeffekt2:focus{
@@ -387,10 +389,10 @@
           @media only screen and (max-width: 700px)
            {
             .slider img{
-               width: 95%;
+               width: 85%;
                overflow: hidden;
             }
-          @media only screen and (max-width: 800px)
+          @media only screen and (max-width: 900px)
            {
             .sllider img{
               width: 80;
